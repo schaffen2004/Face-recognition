@@ -27,12 +27,9 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
     if cv2.waitKey(1) & 0xFF == ord("s"):
-        for i in range(30):
-            cv2.imwrite(f"Data/Face.{face_id}.{count}.jpg", gray_frame[y:y+h, x:x+w])
-            count += 1
-            if count > 3:
-                print(f"Lấy dữ liệu của ID {face_id} hoàn tất")
-                break
+        cv2.imwrite(f"Data/Face.{face_id}.{count}.jpg", gray_frame[y:y+h, x:x+w])           
+        print(f"Lấy dữ liệu của ID {face_id} hoàn tất")
+        count += 1
 
 cam.release()
 cv2.destroyAllWindows()
