@@ -1,5 +1,5 @@
 # Realtime_Face_recognition for AIL assignment
-
+HOANG VAN LAP - SE180503
 - Step 1: Take_Data
   > python Take_Data.py
 - Step 2: Train Data
