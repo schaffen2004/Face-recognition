@@ -4,5 +4,6 @@ HOANG VAN LAP - SE180503
   > python Take_Data.py
 - Step 2: Train Data
   > python Train.py
-- Step 3: Recognition
+- Step 3: Press "s" for save image
+- Step 4: Recognition
   > python Recognition,py
